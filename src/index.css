@@ -1,0 +1,94 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  background-color:white;
+}
+.heading{
+ text-align:center;
+ margin-left:auto;
+}
+div.gallery{
+    justify-content: center;
+}
+div.gallery img{
+width:200px;
+height:200px;
+margin-left:auto;
+margin-right:auto;
+display:block;
+}
+.main-div{
+  margin-left:150px;
+}
+.intro label input{
+width:250px;
+padding: 12px 20px;
+margin-top:10px;
+margin-left: 10px;
+border: 2px solid wheat;
+box-sizing: border-box;
+}
+.ageno h5{
+   margin-top:10px;
+   margin-bottom:10px;
+   color:black;  
+}
+.ageno label input{
+width:250px;
+margin-left: 10px;
+padding: 12px 20px;
+margin-top:10px;
+border: 2px solid wheat;
+box-sizing: border-box;
+}
+.payment input[type=checkbox]{
+ margin-left:0px;
+ margin-bottom:10px;
+}
+.payment label{
+    font-size:30px;
+}
+.choose h5{
+  margin-bottom:10px; 
+}
+.choose input{
+  margin-top:5px;
+}
+.choose h2{
+  margin-top:7px;
+}
+button{
+margin-bottom: 10px;
+line-height:24px;
+padding:0 20px;
+background-color:rgb(105, 200, 81);
+border:2px solid whitesmoke;
+cursor:pointer;
+border-radius:8px;
+text-transform: uppercase;
+}
+p{
+   margin-top:5px;
+   text-align:center;
+    font-size:40px;
+}
+@media only screen and (max-width:768px){
+.heading{
+  text-align:center;
+}
+.main-div{
+  margin-left:100px;
+}
+}
+@media only screen and (max-width:550px){
+*{
+  height:70%
+}
+.heading{
+  text-align:center;
+}
+.main-div{
+  margin-left:50;
+} 
+}
